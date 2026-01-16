@@ -1,0 +1,12 @@
+{
+  "criterios": [
+    {
+      "propriedade": "Titulo",
+      "direcao": "Ascendente"
+    },
+    {
+      "propriedade": "Autor",
+      "direcao": "Ascendente"
+    }
+  ]
+}
