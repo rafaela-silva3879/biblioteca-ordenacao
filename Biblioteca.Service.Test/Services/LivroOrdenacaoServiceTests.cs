@@ -136,6 +136,7 @@ namespace Biblioteca.Service.Test.Services
             Assert.Equal("Head First Design Patterns", resultado[2].Titulo); // Livro 3
             Assert.Equal("Patterns of Enterprise Application Architecture", resultado[3].Titulo); // Livro 2
         }
+        
         [Fact]
         public void Deve_Lancar_Exception_Quando_Lista_For_Nula()
         {
@@ -144,6 +145,7 @@ namespace Biblioteca.Service.Test.Services
 
             Assert.Throws<Exception>(() => service.Ordenar(null));
         }
+        
         [Fact]
         public void Deve_Retornar_Lista_Vazia_Quando_Conjunto_For_Vazio()
         {
